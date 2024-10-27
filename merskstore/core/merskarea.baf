@@ -1,0 +1,7 @@
+IF
+  Global("MersetekExists","AR4500",0)
+THEN
+  RESPONSE #100
+    SetGlobal("MersetekExists","AR4500",1)
+    CreateCreature("Mersetek",[2000.1500],5)
+END
